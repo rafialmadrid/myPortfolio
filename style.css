@@ -1,0 +1,85 @@
+#profilePic {
+    border-radius: 50%;
+    width: 300px;
+    height: 290;
+    margin: 0 auto;
+    object-fit: cover;
+}
+#profile {
+    text-align: center;
+    padding: 30px 10px;
+    position: relative;
+}
+#about {
+    padding-top: 40px;
+}
+.portrait-title h2 {
+    font-size: 1.75em;
+    font-weight: 500;
+    color: #000;
+    margin: 20px 0 10px;
+}
+.portrait-title h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(0,0,0,.54);
+    margin: 0 0 10px;
+}
+.big-icon {
+    font-size: 2rem;
+}
+#profile .network-icon {
+    margin-top: 10px;
+}
+ul.network-icon {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.network-icon li {
+    margin-right: 10px;
+}
+#biography {
+    padding: 30px 10px;
+    position: relative;
+}
+ul.ul-interests li {
+    font-size: .9rem;
+}
+ul.ul-edu li {
+    position: relative;
+    padding: 0 15px 4px 3px;
+}
+ul.ul-edu li .description p.course {
+    font-size: .9rem;
+}
+ul.ul-edu li .description p {
+    margin: 0;
+}
+.fa-li {
+    left: -2em;
+    position: absolute;
+    text-align: center;
+    width: 2em;
+    line-height: inherit;
+}
+ul.ul-edu li .description p.institution {
+    font-size: .75rem;
+    color: rgba(0,0,0,.6);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.in-ed {
+    padding-top: 20px;
+}
+
+
+
