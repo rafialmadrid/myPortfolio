@@ -1,6 +1,6 @@
 #myPortfolio (https://rafialmadrid.github.io/myPortfolio/) <-- Link to the deployed app
 
-<img src="portfolioSample.png" alt="Deployed app">
+<img src="images/portfolioSample.png" alt="Deployed app">
 
 This is a web page where I will be able to show my self to the world, share some of the work I am doing and let people get in touch with me.
 
