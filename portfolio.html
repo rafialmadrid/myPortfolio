@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 4 Website Example</title>
+  <title>Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <style>
-  body {
-    background-image: url(images/background.jpg);
-  }
-  </style>
+  <script src="https://kit.fontawesome.com/394b85ac79.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style2.css">
+
 </head>
 <body>
 
@@ -41,49 +40,153 @@
         </div>
       </nav>
 
-<div class="container" style="margin-top:30px">
+<div class="container">
 
-    <div class="row" style="margin-left:10px" >
+  <h1 id="title">Portfolio</h1>
 
-        <div class="col-sm-8" style="background-color:white;">
-            
-            <h1>Portfolio</h1>
+   <div class="row">
+    <h3 class="titles">Football & Weather App</h3>
+      <div class="row">
+            <div class="col-12 col-lg-6 desc">
 
-            <div class="row" style="margin-left:10px" >
+                <p>This app allows the user to find football matches when visiting a new city</p>
 
-                <div class="col-sm-6">
-                    <img src="images/TBD.jpg" alt="TBD" class="img-thumbnail" style="width:200px;height:200px;">
-                </div>
+                <p>When the user inputs a city name, data from the most relevant footbal teams of the city will appear as well as the weather conditions</p>
 
-                <div class="col-sm-6">
-                    <img src="images/TBD.jpg" alt="TBD" class="img-thumbnail" style="width:200px;height:200px;">
-                </div>
+                <p>When the user clicks on one of the shields of the teams shown, data from the next fixture will appear, inlcluding place, time and the opponent team</p>
 
-                <div class="col-sm-6">
-                    <img src="images/TBD.jpg" alt="TBD" class="img-thumbnail" style="width:200px;height:200px;">
-                </div>
+                <p>Also, relevant data such as the team squad, the standings and the top scorers of the league will be shown to the user</p>
 
-                <div class="col-sm-6">
-                    <img src="images/TBD.jpg" alt="TBD" class="img-thumbnail" style="width:200px;height:200px;">
-                </div>
+                <div class="icons">
 
-                <div class="col-sm-6">
-                    <img src="images/TBD.jpg" alt="TBD" class="img-thumbnail" style="width:200px;height:200px;">
-                </div>
+                <a href="https://github.com/rafialmadrid/FootballApp" target="_blank" rel="noopener">
+                  <i class="fab fa-github big-icon"></i>
+                </a>
 
-                <div class="col-sm-6">
-                    <img src="images/TBD.jpg" alt="TBD" class="img-thumbnail" style="width:200px;height:200px;">
-                    </div>
+                <a href="https://jeck24.github.io/Project1/" target="_blank" rel="noopener">
+                  <i class="fas fa-link big-icon"></i>
+                </a>
 
-                    
-
+               </div>
+        
             </div>
-
-         
-
-      
-        </div>
+            <div class="col-12 col-lg-6 image">
+              <img class="sampleImg" src="https://user-images.githubusercontent.com/67298961/99329582-27781380-2844-11eb-8ead-2a6f9f316dd5.gif" alt="footballGif">
+            </div>
+      </div> 
    </div>
+<hr>
+
+   <div class="row">
+    <h3 class="titles">The Weather App</h3>
+      <div class="row">
+            <div class="col-12 col-lg-6 desc">
+
+                <p>The weather app allows the user to access the current weather and a 5 day forecast of the chosen city. </p>
+
+                <p>Every time the user inputs a new city, the information on the dashboard changes accordingly. Also, a list is created with the cities the user adds.</p>
+
+                <p>If the user wants to revisit the information of a city he already added to the list, the data will update after clicking on the name of the city.</p>
+
+                <p>The data displayed consists on dates, an image that represent the weather conditions, temperature, humidity, wind speed and UV index 
+                  (5 day forecast doesn't include wind speed nor UV index). UV index turns into a color depending the value for each city</p>
+
+                <div class="icons">
+
+                <a href="https://github.com/rafialmadrid/weatherApp" target="_blank" rel="noopener">
+                  <i class="fab fa-github big-icon"></i>
+                </a>
+
+                <a href="https://rafialmadrid.github.io/weatherApp/" target="_blank" rel="noopener">
+                  <i class="fas fa-link big-icon"></i>
+                </a>
+
+               </div>
+        
+            </div>
+            <div class="col-12 col-lg-6 image">
+              <img class="sampleImg" src="images/Weather app sample.png" alt="weatherApp">
+            </div>
+      </div> 
+   </div>
+   <hr>
+
+   <div class="row">
+    <h3 class="titles">Work Day Scheduler</h3>
+      <div class="row">
+            <div class="col-12 col-lg-6 desc">
+
+                <p>This app is a simple calendar that provides the user with several blocks that represent each hour of the day.</p>
+
+                <p>At the top, the user is provided with the current date and each block will change color depending on the current time. The following detail wha each color represents: </p>
+
+                  <ol>
+                    <li>Grey - Past hours</li>
+                    <li>Red - Present hour</li>
+                    <li>Green - Future hours</li>
+                  </ol>
+
+                <p>The user can also input text to each block and when the button to save is pressed the data is stored in the local storage. The user can refresh or close the page and the data will remain.</p>
+
+                <div class="icons">
+
+                <a href="https://github.com/rafialmadrid/workScheduler" target="_blank" rel="noopener">
+                  <i class="fab fa-github big-icon"></i>
+                </a>
+
+                <a href="https://rafialmadrid.github.io/workScheduler/" target="_blank" rel="noopener">
+                  <i class="fas fa-link big-icon"></i>
+                </a>
+
+               </div>
+        
+            </div>
+            <div class="col-12 col-lg-6 image">
+              <img class="sampleImg" src="images/Deployed app.jpg" alt="workDay">
+            </div>
+      </div> 
+   </div>
+   <hr>
+
+   <div class="row">
+    <h3 class="titles">Password Generator</h3>
+      <div class="row">
+            <div class="col-12 col-lg-6 desc">
+
+                <p>This app allows the user to generate a secure password with the specific types of characters the user wants to use.</p>
+
+                <p>When the user pushes the button "Generate Password", an alert will request the length of the password. 
+                  The response has to be numeric and from 8 to 128 characters long, otherwise, it would request the value again and again.</p>
+
+                <p>Once having a correct length, the user will be able to select lower cases, upper cases, numbers and special characters.</p>
+
+                <p>The app will show the user the result in the screen. If refreshed, the process can be repeated.</p>
+
+                <div class="icons">
+
+                <a href="https://github.com/rafialmadrid/passwordGenerator" target="_blank" rel="noopener">
+                  <i class="fab fa-github big-icon"></i>
+                </a>
+
+                <a href="https://rafialmadrid.github.io/passwordGenerator/" target="_blank" rel="noopener">
+                  <i class="fas fa-link big-icon"></i>
+                </a>
+
+               </div>
+        
+            </div>
+            <div class="col-12 col-lg-6 image">
+              <img class="sampleImg" src="images/passwordGen.png" alt="passwordGen">
+            </div>
+      </div> 
+   </div>
+   <hr>
+
+  </div>
+
+   
+
+  
 
 
 
